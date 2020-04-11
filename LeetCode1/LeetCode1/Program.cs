@@ -1,8 +1,9 @@
 ﻿using System;
+using System.Collections;
 
 namespace LeetCode1
 {
-    class Program
+    static class Program
     {
         static void Main(string[] args)
         {
@@ -44,10 +45,16 @@ namespace LeetCode1
         /// </summary>
         /// <param name="nums">The numbers</param>
         /// <param name="target">The target</param>
-        /// <returns></returns>
         public static int[] TwoSumHashMap(int[] nums, int target)
         {
             var result = new int[2];
+            Hashtable hs = new Hashtable();
+            int hsi = 0;
+            foreach (var item in nums)
+            {
+                hs.Add(hsi, item);
+                hsi++;
+            }
             throw new NotImplementedException();
         }
     }
