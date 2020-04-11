@@ -14,10 +14,10 @@ namespace LeetCode1
         }
 
         /// <summary>
-        /// O 
+        /// O(n^2) Solution, most simple
         /// </summary>
-        /// <param name="nums"></param>
-        /// <param name="target"></param>
+        /// <param name="nums">The numbers</param>
+        /// <param name="target">The target</param>
         /// <returns></returns>
         public static int[] TwoSum(int[] nums, int target)
         {
@@ -39,9 +39,16 @@ namespace LeetCode1
             throw new Exception("No number match up to target");
         }
 
+        /// <summary>
+        /// O(n) Solution based on hashmaps
+        /// </summary>
+        /// <param name="nums">The numbers</param>
+        /// <param name="target">The target</param>
+        /// <returns></returns>
         public static int[] TwoSumHashMap(int[] nums, int target)
         {
-
+            var result = new int[2];
+            throw new NotImplementedException();
         }
     }
 }
