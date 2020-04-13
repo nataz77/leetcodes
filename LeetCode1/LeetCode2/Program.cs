@@ -1,6 +1,4 @@
-﻿using Microsoft.VisualBasic.CompilerServices;
-using System;
-using System.Collections.Generic;
+﻿using System;
 using System.Text;
 
 namespace LeetCode2
